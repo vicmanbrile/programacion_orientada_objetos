@@ -6,16 +6,16 @@ package my.com.vmbl.poo.figuras;
 
 /**
  *
- * @author victor-briseno
+ * @author vicmanbrile
  */
-public class Cuadrado implements Figura {
-    int lado;
-    public Cuadrado(int lado) {
-        this.lado = lado;
+public class Circulo implements Figura {
+    double  radio;
+    public Circulo(double radio){
+        this.radio = radio;
     }
-
+    
     @Override
-    public double calcularArea() {
-        return lado * lado;
+    public double  calcularArea(){
+        return (this.radio*2) * Math.PI;
     }
 }

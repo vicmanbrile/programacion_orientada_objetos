@@ -9,5 +9,5 @@ package my.com.vmbl.poo.figuras;
  * @author victor-briseno
  */
 public interface Figura {
-    int calcularArea();
+    double calcularArea();
 }

@@ -1,7 +1,6 @@
-package my.com.vmbl.poo.animals;
-
-import my.com.vmbl.poo.figuras.Cuadrado;
 import my.com.vmbl.poo.figuras.Figura;
+import my.com.vmbl.poo.figuras.Circulo;
+import my.com.vmbl.poo.figuras.Cuadrado;
 
 /**
  *
@@ -14,13 +13,15 @@ import my.com.vmbl.poo.figuras.Figura;
 
 public class programacionPOO {
     public static void main(String[] args) {
-        Animal perro = new Perro();
         
-        perro.comer();
         
         Figura cuadrado = new Cuadrado(5);
-        int area = cuadrado.calcularArea();
+        Figura circulo = new Circulo(5);
+
         
-        System.out.println(""+area);
+        System.out.println("La area del cuadrado es: "+cuadrado.calcularArea()+"\n");
+        
+        System.out.println("La area del cuadrado es: "+circulo.calcularArea()+"\n");
+
     }
 }
