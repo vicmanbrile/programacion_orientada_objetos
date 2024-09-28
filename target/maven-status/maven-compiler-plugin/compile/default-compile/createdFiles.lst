@@ -1,5 +1,8 @@
-com/mycompany/mavenproject1/Perro.class
-com/mycompany/mavenproject1/Animal.class
-com/mycompany/mavenproject1/Mavenproject1.class
-com/mycompany/mavenproject1/Tiburon.class
-com/mycompany/mavenproject1/Aguilla.class
+my\com\vmbl\poo\animals\Perro.class
+my\com\vmbl\poo\figuras\Cuadrado.class
+my\com\vmbl\poo\animals\Animal.class
+programacionPOO.class
+my\com\vmbl\poo\animals\Aguilla.class
+my\com\vmbl\poo\figuras\Circulo.class
+my\com\vmbl\poo\animals\Tiburon.class
+my\com\vmbl\poo\figuras\Figura.class
