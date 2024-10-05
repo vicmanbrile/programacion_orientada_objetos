@@ -1,7 +1,9 @@
-package my.com.vmbl.poo.animals;
 
-import my.com.vmbl.poo.figuras.Cuadrado;
-import my.com.vmbl.poo.figuras.Figura;
+import my.com.vmbl.poo.animals.Animal;
+import my.com.vmbl.poo.animals.Perro;
+import my.com.vmbl.poo.figures.Cuadrado;
+import my.com.vmbl.poo.figures.Figura;
+import my.com.vmbl.poo.polimorfismo.Profesor;
 
 /**
  *
@@ -22,5 +24,10 @@ public class programacionPOO {
         int area = cuadrado.calcularArea();
         
         System.out.println(""+area);
+        
+        
+        Profesor profesor = new Profesor("Victor", "vicmanbrile@hotmail.com");
+        
+        System.out.print(profesor.ToString());
     }
 }
