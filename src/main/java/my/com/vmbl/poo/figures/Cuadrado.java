@@ -15,7 +15,7 @@ public class Cuadrado implements Figura {
     }
 
     @Override
-    public int calcularArea() {
+    public double calcularArea() {
         return lado * lado;
     }
 }

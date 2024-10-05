@@ -7,7 +7,7 @@
             </packagings>
             <goals>
                 <goal>process-classes</goal>
-                <goal>org.codehaus.mojo:exec-maven-plugin:3.0.0:exec</goal>
+                <goal>org.codehaus.mojo:exec-maven-plugin:3.1.0:exec</goal>
             </goals>
             <properties>
                 <exec.vmArgs></exec.vmArgs>
@@ -24,11 +24,7 @@
             </packagings>
             <goals>
                 <goal>process-classes</goal>
-                <goal>org.codehaus.mojo:exec-maven-plugin:3.0.0:exec</goal>
-            </goals>
-            <properties>
-                <exec.vmArgs>-agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address}</exec.vmArgs>
-                <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
+                <goal>org.codehaus.mojo:exec-maven-plugin:3.1.0:exec</goal>
                 <exec.appArgs></exec.appArgs>
                 <exec.mainClass>programacionPOO</exec.mainClass>
                 <exec.executable>java</exec.executable>
@@ -42,7 +38,7 @@
             </packagings>
             <goals>
                 <goal>process-classes</goal>
-                <goal>org.codehaus.mojo:exec-maven-plugin:3.0.0:exec</goal>
+                <goal>org.codehaus.mojo:exec-maven-plugin:3.1.0:exec</goal>
             </goals>
             <properties>
                 <exec.vmArgs></exec.vmArgs>

@@ -16,12 +16,11 @@ import my.com.vmbl.poo.polimorfismo.Profesor;
 
 public class programacionPOO {
     public static void main(String[] args) {
-        Animal perro = new Perro();
         
-        perro.comer();
         
         Figura cuadrado = new Cuadrado(5);
-        int area = cuadrado.calcularArea();
+        Figura circulo = new Circulo(5);
+
         
         System.out.println(""+area);
         
