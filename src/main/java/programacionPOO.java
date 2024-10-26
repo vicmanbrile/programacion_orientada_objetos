@@ -1,9 +1,4 @@
-
-import my.com.vmbl.poo.animals.Animal;
-import my.com.vmbl.poo.animals.Perro;
-import my.com.vmbl.poo.figures.Cuadrado;
-import my.com.vmbl.poo.figures.Figura;
-import my.com.vmbl.poo.polimorfismo.Profesor;
+import my.com.vmbl.poo.Static.Static;
 
 /**
  *
@@ -15,18 +10,11 @@ import my.com.vmbl.poo.polimorfismo.Profesor;
     
 
 public class programacionPOO {
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
         
+        Static s1;
         
-        Figura cuadrado = new Cuadrado(5);
-        Figura circulo = new Circulo(5);
-
-        
-        System.out.println(""+area);
-        
-        
-        Profesor profesor = new Profesor("Victor", "vicmanbrile@hotmail.com");
-        
-        System.out.print(profesor.ToString());
+        s1.funcionEstatica();
+        s1.funcionNoEstatica();
     }
 }
