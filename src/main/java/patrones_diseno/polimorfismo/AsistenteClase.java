@@ -1,4 +1,4 @@
-package my.com.vmbl.poo.polimorfismo;
+package patrones_diseno.polimorfismo;
 
 /**
  *

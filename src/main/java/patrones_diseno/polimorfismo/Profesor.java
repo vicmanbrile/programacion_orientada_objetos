@@ -1,15 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package my.com.vmbl.poo.polimorfismo;
+package patrones_diseno.polimorfismo;
 
 /**
  *
  * @author victor-briseno
  */
-public class Alumno extends AsistenteClase{
-
+public class Profesor extends AsistenteClase{
+    String nombre;
+    String correo;
+        
+    public Profesor(String nombre, String correo, String contra, int id){
+        this.nombre = nombre;
+        this.correo = correo;
+        
+        setContra(contra);
+        this.ID = id;
+    }
+    
     @Override
     public void presentacion() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
@@ -25,4 +31,8 @@ public class Alumno extends AsistenteClase{
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
+    @Override
+    public String ToString(){
+        return "Profesor(" + this.nombre + ") Correo: " + this.correo;
+    }
 }
