@@ -1,4 +1,5 @@
-import my.com.vmbl.poo.Static.Static;
+import patrones_disenio.observer.Manager;
+import patrones_disenio.observer.Usuario;
 
 /**
  *
@@ -10,11 +11,14 @@ import my.com.vmbl.poo.Static.Static;
     
 
 public class programacionPOO {
-    public static void main(String[] args) {  
+    public static void main(String[] args) {
+        Manager manager = new Manager();
+        Usuario usuario = new Usuario("Victor");
         
-        Static s1;
+        manager.agregarSubscriptor(usuario);
         
-        s1.funcionEstatica();
-        s1.funcionNoEstatica();
+        manager.publicarNewsletter("Buenos días amores");
+        
+        System.exit(1);
     }
 }
